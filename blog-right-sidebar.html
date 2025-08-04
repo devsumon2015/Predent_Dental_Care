@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Blog :: Predent – Dental Care HTML Template</title>
+
+    <!--== Favicon ==-->
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon" />
+
+    <!--== Google Fonts ==-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo:wght@300;400;500;600;700;800&family=Roboto:wght@300&family=Shippori+Mincho:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+    <!--== Bootstrap CSS ==-->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <!--== Font Awesome Icon CSS ==-->
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
+    <!--== Datetimepicker CSS ==-->
+    <link href="assets/css/jquery.datetimepicker.css" rel="stylesheet" />
+    <!--== Swiper CSS ==-->
+    <link href="assets/css/swiper.min.css" rel="stylesheet" />
+    <!--== Fancybox Min CSS ==-->
+    <link href="assets/css/fancybox.min.css" rel="stylesheet" />
+    <!--== Aos Min CSS ==-->
+    <link href="assets/css/aos.min.css" rel="stylesheet" />
+
+    <!--== Main Style CSS ==-->
+    <link href="assets/css/style.css" rel="stylesheet" />
+
+    <!--[if lt IE 9]>
+    <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+<!--wrapper start-->
+<div class="wrapper">
+
+  <!--== Start Preloader Content ==-->
+  <div class="preloader-wrap">
+    <div class="preloader">
+      <span class="dot"></span>
+      <div class="dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+  <!--== End Preloader Content ==-->
+
+  <!--== Start Header Wrapper ==-->
+  <header class="header-wrapper">
+    <div class="header-top-area">
+      <div class="header-top-align">
+        <div class="header-top-align-left">
+          <div class="header-logo-area">
+            <a href="index.html">
+              <img class="logo-main" src="assets/img/logo.webp" width="255" height="56" alt="Logo" />
+              <img class="logo-light" src="assets/img/logo-light.webp" width="237" height="78" alt="Logo" />
+            </a>
+          </div>
+        </div>
+        <div class="header-top-align-right">
+          <div class="header-info-items">
+            <div class="info-items">
+              <div class="inner-content">
+                <div class="icon">
+                  <img src="assets/img/icons/time1.webp" alt="Image-HasTech">
+                </div>
+                <div class="content">
+                  <p>8 am to 6 pm (Mon - Fri)<br>10 am to 8 pm (Sat - Sun)</p>
+                </div>
+              </div>
+            </div>
+            <div class="info-items">
+              <div class="inner-content">
+                <div class="icon">
+                  <img src="assets/img/icons/map.webp" alt="Image-HasTech">
+                </div>
+                <div class="content">
+                  <p>258C, Saintpatrick, Main Street <br>Notrth Town, New York</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="header-appointment-button">
+            <a class="appointment-btn" href="contact.html">Appointment</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="header-area sticky-header header-default">
+      <div class="container">
+        <div class="row no-gutter align-items-center position-relative">
+          <div class="col-12">
+            <div class="header-align">
+              <button class="btn-menu" type="button" data-bs-toggle="offcanvas" data-bs-target="#AsideOffcanvasMenu" aria-controls="AsideOffcanvasMenu">
+                <i class="fa fa-align-left"></i>
+              </button>
+              <div class="header-align-left">
+                <div class="mobile-header-logo">
+                  <a href="index.html">
+                    <img class="logo-light" src="assets/img/logo-light.webp" alt="Logo" />
+                  </a>
+                </div>
+                <div class="header-navigation-area">
+                  <ul class="main-menu nav">
+                    <li><a href="index.html"><span>Home</span></a></li>
+                    <li class="has-submenu"><a href="#/"><span>Services</span></a>
+                      <ul class="submenu-nav">
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="service-details.html">Service Details</a></li>
+                      </ul>
+                    </li>
+                    <li class="has-submenu"><a href="#/"><span>Dentist</span></a>
+                      <ul class="submenu-nav">
+                        <li><a href="team.html">Dentist</a></li>
+                        <li><a href="team-details.html">Dentist Details</a></li>
+                      </ul>
+                    </li>
+                    <li class="has-submenu"><a href="#/"><span>Pages</span></a>
+                      <ul class="submenu-nav">
+                        <li class="has-submenu"><a href="#">About Us</a>
+                          <ul class="submenu-nav">
+                            <li><a href="about-us.html">About Us One</a></li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="has-submenu"><a href="#/"><span>Blog</span></a>
+                      <ul class="submenu-nav submenu-nav-mega">
+                        <li class="mega-menu-item"><a href="#/" class="mega-title">Blog Layout</a>
+                          <ul>
+                            <li><a href="blog.html">Blog Grid</a></li>
+                            <li><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
+                            <li><a href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
+                          </ul>
+                        </li>
+                        <li class="mega-menu-item"><a href="#/" class="mega-title">Blog Single Layout</a>
+                          <ul>
+                            <li><a href="blog-details.html">Blog Details</a></li>
+                            <li><a href="blog-details-left-sidebar.html">Blog Details Left Sidebar</a></li>
+                            <li><a href="blog-details-right-sidebar.html">Blog Details Right Sidebar</a></li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </li>
+                    <li><a href="contact.html"><span>Contact</span></a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="header-align-right">
+                <div class="header-action-area">
+                  <a class="btn-login-menu" href="account-login.html">Login</a>
+                  <span>/</span>
+                  <a class="btn-register-menu" href="account-register.html">Register</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!--== End Header Wrapper ==-->
+  
+  <main class="main-content">
+    <!--== Start Page Header Area Wrapper ==-->
+    <div class="page-header-area" data-bg-img="assets/img/photos/bg3.webp">
+      <div class="container pt--0 pb--0">
+        <div class="row">
+          <div class="col-12 text-center">
+            <div class="page-header-content">
+              <h3 class="sub-title" data-aos="fade-down" data-aos-duration="800">OUR BLOG</h3>
+              <h2 class="title" data-aos="fade-down" data-aos-duration="1000">Blog Post</h2>
+              <nav class="breadcrumb-area" data-aos="fade-down" data-aos-duration="1200">
+                <ul class="breadcrumb">
+                  <li><a href="index.html">Home</a></li>
+                  <li class="breadcrumb-sep"> / </li>
+                  <li>Blog</li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="page-header-layer-style">
+        <div class="layer-style mousemove-layer" data-speed=".7"><img src="assets/img/icons/2.webp" alt="Image-HasTech"></div>
+        <div class="layer-style2 mousemove-layer" data-speed=".2"><img src="assets/img/icons/3.webp" alt="Image-HasTech"></div>
+        <div class="layer-style3 mousemove-layer" data-speed=".5"><img src="assets/img/icons/4.webp" alt="Image-HasTech"></div>
+        <div class="layer-style4 mousemove-layer" data-speed=".3"><img src="assets/img/icons/5.webp" alt="Image-HasTech"></div>
+      </div>
+    </div>
+    <!--== End Page Header Area Wrapper ==-->
+
+    <!--== Start Blog Area Wrapper ==-->
+    <section class="blog-area blog-inner-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="row">
+              <div class="col-md-6 col-lg-6">
+                <!--== Start Blog Item ==-->
+                <div class="post-item" data-aos="fade-up">
+                  <div class="inner-content">
+                    <div class="thumb">
+                      <a href="blog-details.html"><img src="assets/img/blog/1.webp" width="370" height="280" alt="Image-HasTech"></a>
+                    </div>
+                    <div class="content">
+                      <ul class="meta">
+                        <li class="post-time"><a href="blog.html">30 Minutes</a></li>
+                        <li class="post-sep"> - </li>
+                        <li class="post-comment"><a href="blog.html">25 Comments</a></li>
+                      </ul>
+                      <h4 class="title"><a href="blog-details.html">Dental Care for Child is very important</a></h4>
+                      <div class="footer-content">
+                        <div class="author-info">
+                          <a href="blog-details.html">
+                            <img src="assets/img/blog/author1.webp" alt="Image-HasTech">
+                            <span class="name"><strong>Morgon Dawson</strong> <br>20 April, 2022</span>
+                          </a>
+                        </div>
+                        <div class="social-icons-wrap">
+                      <a class="share-btn" href="#/"><i class="fa fa-share-alt"></i></a>
+                      <div class="social-icons">
+                        <a href="#/"><i class="fa fa-facebook"></i></a>
+                        <a href="#/"><i class="fa fa-twitter"></i></a>
+                        <a href="#/"><i class="fa fa-instagram"></i></a>
+                      </div>
+                    </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--== End Blog Item ==-->
+              </div>
+              <div class="col-md-6 col-lg-6">
+                <!--== Start Blog Item ==-->
+                <div class="post-item" data-aos="fade-up">
+                  <div class="inner-content">
+                    <div class="thumb">
+                      <a href="blog-details.html"><img src="assets/img/blog/3.webp" width="370" height="280" alt="Image-HasTech"></a>
+                    </div>
+                    <div class="content">
+                      <ul class="meta">
+                        <li class="post-time"><a href="blog.html">55 Minutes</a></li>
+                        <li class="post-sep"> - </li>
+                        <li class="post-comment"><a href="blog.html">36 Comments</a></li>
+                      </ul>
+                      <h4 class="title"><a href="blog-details.html">Root Canals Treament is importent for teeth</a></h4>
+                      <div class="footer-content">
+                        <div class="author-info">
+                          <a href="blog-details.html">
+                            <img src="assets/img/blog/author3.webp" alt="Image-HasTech">
+                            <span class="name"><strong>Rehana Smith</strong> <br>10 April, 2022</span>
+                          </a>
+                        </div>
+                        <div class="social-icons-wrap">
+                      <a class="share-btn" href="#/"><i class="fa fa-share-alt"></i></a>
+                      <div class="social-icons">
+                        <a href="#/"><i class="fa fa-facebook"></i></a>
+                        <a href="#/"><i class="fa fa-twitter"></i></a>
+                        <a href="#/"><i class="fa fa-instagram"></i></a>
+                      </div>
+                    </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--== End Blog Item ==-->
+              </div>
+              <div class="col-md-6 col-lg-6">
+                <!--== Start Blog Item ==-->
+                <div class="post-item" data-aos="fade-up">
+                  <div class="inner-content">
+                    <div class="thumb">
+                      <a href="blog-details.html"><img src="assets/img/blog/6.webp" width="370" height="280" alt="Image-HasTech"></a>
+                    </div>
+                    <div class="content">
+                      <ul class="meta">
+                        <li class="post-time"><a href="blog.html">2 DAYS</a></li>
+                        <li class="post-sep"> - </li>
+                        <li class="post-comment"><a href="blog.html">36 COMMENTS</a></li>
+                      </ul>
+                      <h4 class="title"><a href="blog-details.html">How Dental Braces help my teeth?</a></h4>
+                      <div class="footer-content">
+                        <div class="author-info">
+                          <a href="blog-details.html">
+                            <img src="assets/img/blog/author6.webp" alt="Image-HasTech">
+                            <span class="name"><strong>Lora Jhones</strong> <br>07 April, 2022</span>
+                          </a>
+                        </div>
+                        <div class="social-icons-wrap">
+                      <a class="share-btn" href="#/"><i class="fa fa-share-alt"></i></a>
+                      <div class="social-icons">
+                        <a href="#/"><i class="fa fa-facebook"></i></a>
+                        <a href="#/"><i class="fa fa-twitter"></i></a>
+                        <a href="#/"><i class="fa fa-instagram"></i></a>
+                      </div>
+                    </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--== End Blog Item ==-->
+              </div>
+              <div class="col-md-6 col-lg-6">
+                <!--== Start Blog Item ==-->
+                <div class="post-item" data-aos="fade-up">
+                  <div class="inner-content">
+                    <div class="thumb">
+                      <a href="blog-details.html"><img src="assets/img/blog/5.webp" width="370" height="280" alt="Image-HasTech"></a>
+                    </div>
+                    <div class="content">
+                      <ul class="meta">
+                        <li class="post-time"><a href="blog.html">5 HOUR</a></li>
+                        <li class="post-sep"> - </li>
+                        <li class="post-comment"><a href="blog.html">39 COMMENTS</a></li>
+                      </ul>
+                      <h4 class="title"><a href="blog-details.html">Regular Dental care makes beautiful Smile</a></h4>
+                      <div class="footer-content">
+                        <div class="author-info">
+                          <a href="blog-details.html">
+                            <img src="assets/img/blog/author5.webp" alt="Image-HasTech">
+                            <span class="name"><strong>David Morgan</strong> <br>08 April, 2022</span>
+                          </a>
+                        </div>
+                        <div class="social-icons-wrap">
+                      <a class="share-btn" href="#/"><i class="fa fa-share-alt"></i></a>
+                      <div class="social-icons">
+                        <a href="#/"><i class="fa fa-facebook"></i></a>
+                        <a href="#/"><i class="fa fa-twitter"></i></a>
+                        <a href="#/"><i class="fa fa-instagram"></i></a>
+                      </div>
+                    </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--== End Blog Item ==-->
+              </div>
+              <div class="col-md-6 col-lg-6">
+                <!--== Start Blog Item ==-->
+                <div class="post-item" data-aos="fade-up">
+                  <div class="inner-content">
+                    <div class="thumb">
+                      <a href="blog-details.html"><img src="assets/img/blog/8.webp" width="370" height="280" alt="Image-HasTech"></a>
+                    </div>
+                    <div class="content">
+                      <ul class="meta">
+                        <li class="post-time"><a href="blog.html">7 DAYS</a></li>
+                        <li class="post-sep"> - </li>
+                        <li class="post-comment"><a href="blog.html">18 COMMENTS</a></li>
+                      </ul>
+                      <h4 class="title"><a href="blog-details.html">Dental whitening is a simple procedure</a></h4>
+                      <div class="footer-content">
+                        <div class="author-info">
+                          <a href="blog-details.html">
+                            <img src="assets/img/blog/author8.webp" alt="Image-HasTech">
+                            <span class="name"><strong>Alex Williams</strong> <br>04 April, 2022</span>
+                          </a>
+                        </div>
+                        <div class="social-icons-wrap">
+                      <a class="share-btn" href="#/"><i class="fa fa-share-alt"></i></a>
+                      <div class="social-icons">
+                        <a href="#/"><i class="fa fa-facebook"></i></a>
+                        <a href="#/"><i class="fa fa-twitter"></i></a>
+                        <a href="#/"><i class="fa fa-instagram"></i></a>
+                      </div>
+                    </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--== End Blog Item ==-->
+              </div>
+              <div class="col-md-6 col-lg-6">
+                <!--== Start Blog Item ==-->
+                <div class="post-item" data-aos="fade-up">
+                  <div class="inner-content">
+                    <div class="thumb">
+                      <a href="blog-details.html"><img src="assets/img/blog/9.webp" width="370" height="280" alt="Image-HasTech"></a>
+                    </div>
+                    <div class="content">
+                      <ul class="meta">
+                        <li class="post-time"><a href="blog.html">10 DAYS</a></li>
+                        <li class="post-sep"> - </li>
+                        <li class="post-comment"><a href="blog.html">10 COMMENTS</a></li>
+                      </ul>
+                      <h4 class="title"><a href="blog-details.html">Protect your teeth form cavities by checkup</a></h4>
+                      <div class="footer-content">
+                        <div class="author-info">
+                          <a href="blog-details.html">
+                            <img src="assets/img/blog/author9.webp" alt="Image-HasTech">
+                            <span class="name"><strong>Thomas Smith</strong> <br>10 April, 2022</span>
+                          </a>
+                        </div>
+                        <div class="social-icons-wrap">
+                      <a class="share-btn" href="#/"><i class="fa fa-share-alt"></i></a>
+                      <div class="social-icons">
+                        <a href="#/"><i class="fa fa-facebook"></i></a>
+                        <a href="#/"><i class="fa fa-twitter"></i></a>
+                        <a href="#/"><i class="fa fa-instagram"></i></a>
+                      </div>
+                    </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--== End Blog Item ==-->
+              </div>
+              <div class="col-12">
+                <!--== Start Pagination Wrap ==-->
+                <div class="pagination-content-wrap mb-md-40">
+                  <nav class="pagination-nav">
+                    <ul class="pagination justify-content-center">
+                      <li><a class="prev icon" href="#/"><i class="fa fa-angle-left"></i></a></li>
+                      <li><a class="active disabled" href="#/">01</a></li>
+                      <li class="pagination-sep"> / </li>
+                      <li><a href="#/">09</a></li>
+                      <li><a class="next icon" href="#/"><i class="fa fa-angle-right"></i></a></li>
+                    </ul>
+                  </nav>
+                </div>
+                <!--== End Pagination Wrap ==-->
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <!--== Start Sidebar Wrapper ==-->
+            <div class="sidebar-wrapper sidebar-left-margin">
+              <!--== Start Sidebar Item ==-->
+              <div class="sidebar-item" data-bg-img="assets/img/photos/sidebar1.webp">
+                <h4 class="sidebar-title">Search</h4>
+                <div class="sidebar-body">
+                  <div class="sidebar-search-form">
+                    <form action="#">
+                      <div class="form-group">
+                        <input class="form-control" type="text" placeholder="Keywords">
+                        <button type="submit" class="btn-src"><i class="fa fa-search"></i></button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+              <!--== End Sidebar Item ==-->
+
+              <!--== Start Sidebar Item ==-->
+              <div class="sidebar-item category-sidebar-item" data-bg-img="assets/img/photos/sidebar2.webp">
+                <h4 class="sidebar-title">Categories</h4>
+                <div class="sidebar-body">
+                  <div class="sidebar-category-sub-menu">
+                    <ul>
+                      <li><a href="services.html">General Dentistry <span>(35)</span></a></li>
+                      <li><a href="services.html">Cosmetic Braces <span>(25)</span></a></li>
+                      <li><a href="services.html">Dental Bridge <span>(18)</span></a></li>
+                      <li><a href="services.html">Root Canals <span>(10)</span></a></li>
+                      <li><a href="services.html">Oral Surgery <span>(39)</span></a></li>
+                      <li><a href="services.html">Pediatric Dentistry <span>(42)</span></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <!--== End Sidebar Item ==-->
+
+              <!--== Start Sidebar Item ==-->
+              <div class="sidebar-item offer-sidebar-item">
+                <div class="sidebar-body">
+                  <div class="sidebar-offer-thumb">
+                    <a href="contact.html"><img src="assets/img/photos/offers.webp" width="340" height="381" alt="Image-HasTech"></a>
+                  </div>
+                </div>
+              </div>
+              <!--== End Sidebar Item ==-->
+
+              <!--== Start Sidebar Item ==-->
+              <div class="sidebar-item recent-post-sidebar-item" data-bg-img="assets/img/photos/sidebar3.webp">
+                <h4 class="sidebar-title">Recent Post</h4>
+                <div class="sidebar-body">
+                  <!--== Start Blog Item ==-->
+                  <div class="sidebar-post-item">
+                    <div class="inner-content">
+                      <div class="thumb">
+                        <a href="blog-details.html"><img src="assets/img/blog/small1.webp" alt="Image-HasTech"></a>
+                      </div>
+                      <div class="content">
+                        <ul class="meta">
+                          <li><a class="date" href="blog.html">20 April, 2022</a></li>
+                        </ul>
+                        <h4 class="title"><a href="blog-details.html">Dental Braces Treatment</a></h4>
+                      </div>
+                    </div>
+                  </div>
+                  <!--== End Blog Item ==-->
+
+                  <!--== Start Blog Item ==-->
+                  <div class="sidebar-post-item">
+                    <div class="inner-content">
+                      <div class="thumb">
+                        <a href="blog-details.html"><img src="assets/img/blog/small2.webp" alt="Image-HasTech"></a>
+                      </div>
+                      <div class="content">
+                        <ul class="meta">
+                          <li><a class="date" href="blog.html">18 April, 2022</a></li>
+                        </ul>
+                        <h4 class="title"><a href="blog-details.html">Dental Cosmetic Treatment</a></h4>
+                      </div>
+                    </div>
+                  </div>
+                  <!--== End Blog Item ==-->
+
+                  <!--== Start Blog Item ==-->
+                  <div class="sidebar-post-item">
+                    <div class="inner-content">
+                      <div class="thumb">
+                        <a href="blog-details.html"><img src="assets/img/blog/small3.webp" alt="Image-HasTech"></a>
+                      </div>
+                      <div class="content">
+                        <ul class="meta">
+                          <li><a class="date" href="blog.html">15 April, 2022</a></li>
+                        </ul>
+                        <h4 class="title"><a href="blog-details.html">Protect your by Checkup</a></h4>
+                      </div>
+                    </div>
+                  </div>
+                  <!--== End Blog Item ==-->
+                </div>
+              </div>
+              <!--== End Sidebar Item ==-->
+
+              <!--== Start Sidebar Item ==-->
+              <div class="sidebar-item sidebar-tag-item mb--0" data-bg-img="assets/img/photos/sidebar4.webp">
+                <h4 class="sidebar-title">Tags</h4>
+                <div class="sidebar-body">
+                  <div class="sidebar-tag-items">
+                    <a href="services.html">Dental</a>
+                    <a href="services.html">Root Canals</a>
+                    <a href="services.html">Whitening</a>
+                    <a href="services.html">Cosmetic</a>
+                    <a href="services.html">Cavity</a>
+                    <a href="services.html">Orthodontist</a>
+                    <a href="services.html">Dentist</a>
+                    <a href="services.html">Healthcare</a>
+                  </div>
+                </div>
+              </div>
+              <!--== End Sidebar Item ==-->
+            </div>
+            <!--== End Sidebar Wrapper ==-->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--== End Blog Area Wrapper ==-->
+
+    <!--== Start News Letter Area Wrapper ==-->
+    <div class="newsletter-area bg-overlay bg-overlay-theme-color bg-img z-index-1" data-bg-img="assets/img/photos/bg2.webp">
+      <div class="container pt--0 pb--0">
+        <div class="newsletter-content-wrap">
+          <div class="row align-items-center">
+            <div class="col-md-5">
+              <div class="newsletter-content">
+                <div class="section-title section-title-light mb--0">
+                  <h5 class="sub-title">NEWSLETTER</h5>
+                  <h2 class="title mb--0">Subscribe our Newsletter</h2>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-7">
+              <div class="newsletter-form">
+                <form>
+                  <input type="email" class="form-control" placeholder="Enter Your email address">
+                  <button class="btn-submit" type="submit">Subscribe</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--== End News Letter Area Wrapper ==-->
+  </main>
+
+  <!--== Start Footer Area Wrapper ==-->
+  <footer class="footer-area">
+    <!--== Start Footer Main ==-->
+    <div class="footer-main">
+      <div class="container pt--0 pb--0">
+        <div class="row no-gutter">
+          <div class="col-sm-6 col-lg-3">
+            <!--== Start widget Item ==-->
+            <div class="widget-item">
+              <div class="about-widget-wrap">
+                <div class="widget-logo-area">
+                  <a href="index.html">
+                    <img class="logo-main" src="assets/img/logo-light.webp" width="237" height="78" alt="Logo" />
+                  </a>
+                </div>
+                <p class="desc">Dental care is maintenance of healthy teeth and cleaning mouth for beautiful smile</p>
+                <div class="social-icons">
+                  <a href="#/"><i class="fa fa-facebook"></i></a>
+                  <a href="#/"><i class="fa fa-instagram"></i></a>
+                  <a href="#/"><i class="fa fa-twitter"></i></a>
+                </div>
+              </div>
+            </div>
+            <!--== End widget Item ==-->
+          </div>
+          <div class="col-sm-6 col-lg-3">
+            <!--== Start widget Item ==-->
+            <div class="widget-item widget-menu">
+              <h4 class="widget-title">Our Services</h4>
+              <div class="widget-menu-wrap">
+                <ul class="nav-menu">
+                  <li><a href="services.html">General Dentistry</a></li>
+                  <li><a href="services.html">Oral Surgery</a></li>
+                  <li><a href="services.html">Dental Bridge</a></li>
+                  <li><a href="services.html">Root Canals</a></li>
+                  <li><a href="services.html">Cosmetic Braces</a></li>
+                  <li><a href="services.html">Pediatric Dentistry</a></li>
+                </ul>
+              </div>
+            </div>
+            <!--== End widget Item ==-->
+          </div>
+          <div class="col-sm-6 col-lg-3">
+            <!--== Start widget Item ==-->
+            <div class="widget-item widget-menu2">
+              <h4 class="widget-title">Importance</h4>
+              <div class="widget-menu-wrap">
+                <ul class="nav-menu">
+                  <li><a href="about-us.html">Abut us</a></li>
+                  <li><a href="about-us.html">Comapay</a></li>
+                  <li><a href="about-us.html">Terms & Conditions</a></li>
+                  <li><a href="contact.html">24/7 Advance Care</a></li>
+                  <li><a href="services.html">Emergency Centre</a></li>
+                  <li><a href="contact.html">Payment System</a></li>
+                </ul>
+              </div>
+            </div>
+            <!--== End widget Item ==-->
+          </div>
+          <div class="col-sm-6 col-lg-3">
+            <!--== Start widget Item ==-->
+            <div class="widget-item widget-contact">
+              <h4 class="widget-title">Contact us</h4>
+              <div class="widget-contact-wrap">
+                <ul>
+                  <li>256B, West Site House Main Town, New York</li>
+                  <li><a href="tel:+98745612301">+98745 612 301</a><br><a href="tel:+95874102201">+95874 102 201</a></li>
+                  <li><a href="mailto:info@example.com">info@example.com</a><br><a href="mailto:www.predent.com">www.predent.com</a></li>
+                </ul>
+              </div>
+            </div>
+            <!--== End widget Item ==-->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--== End Footer Main ==-->
+
+    <!--== Start Footer Bottom ==-->
+    <div class="footer-bottom">
+      <div class="container pt--0 pb--0">
+        <div class="row">
+          <div class="col-12">
+            <p class="copyright">© 2022 Made with <i class="fa fa-heart"></i> by <a target="_blank" href="https://www.hasthemes.com"> HasThemes</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--== End Footer Bottom ==-->
+  </footer>
+  <!--== End Footer Area Wrapper ==-->
+
+  <!--== Scroll Top Button ==-->
+  <div id="scroll-to-top" class="scroll-to-top"><span class="fa fa-angle-up"></span></div>
+
+  <!--== Start Aside Menu ==-->
+  <aside class="off-canvas-wrapper offcanvas offcanvas-start" tabindex="-1" id="AsideOffcanvasMenu" aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas-header">
+      <h1 class="d-none" id="offcanvasExampleLabel">Aside Menu</h1>
+      <button class="btn-menu-close" data-bs-dismiss="offcanvas" aria-label="Close">menu <i class="fa fa-chevron-left"></i></button>
+    </div>
+    <div class="offcanvas-body">
+      <!-- Mobile Menu Start -->
+      <div class="mobile-menu-items">
+        <ul class="nav-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Services</a>
+            <ul class="sub-menu">
+              <li><a href="services.html">Services</a></li>
+              <li><a href="service-details.html">Service Details</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Dentist</a>
+            <ul class="sub-menu">
+              <li><a href="team.html">Dentist</a></li>
+              <li><a href="team-details.html">Dentist Details</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Pages</a>
+            <ul class="sub-menu">
+              <li><a href="#">About Us</a>
+                <ul class="sub-menu">
+                  <li><a href="about-us.html">About Us One</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li><a href="#">Blog</a>
+            <ul class="sub-menu">
+              <li><a href="#" class="mega-title">Blog Layout</a>
+                <ul class="sub-menu">
+                  <li><a href="blog.html">Blog Grid</a></li>
+                  <li><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
+                  <li><a href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
+                </ul>
+              </li>
+              <li><a href="#" class="mega-title">Blog Single Layout</a>
+                <ul class="sub-menu">
+                  <li><a href="blog-details.html">Blog Details</a></li>
+                  <li><a href="blog-details-left-sidebar.html">Blog Details Left Sidebar</a></li>
+                  <li><a href="blog-details-right-sidebar.html">Blog Details Right Sidebar</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <!-- Mobile Menu End -->
+      <div class="mobile-menu-info">
+        <div class="info-item">
+          <div class="icon">
+            <img src="assets/img/icons/time1.webp" alt="Image-HasTech">
+          </div>
+          <div class="content">
+            <p>8 am to 6 pm (Mon - Fri)<br>10 am to 8 pm (Sat - Sun)</p>
+          </div>
+        </div>
+        <div class="info-item">
+          <div class="icon">
+            <img src="assets/img/icons/map.webp" alt="Image-HasTech">
+          </div>
+          <div class="content">
+            <p>258C, Saintpatrick, Main Street Notrth Town, New York</p>
+          </div>
+        </div>
+      </div>
+      <a class="mobile-menu-btn" href="contact.html">Appointment</a>
+      <div class="mobile-menu-action">
+        <a class="btn-login-menu" href="account-login.html">Login</a>
+        <span>/</span>
+        <a class="btn-register-menu" href="account-register.html">Register</a>
+      </div>
+    </div>
+  </aside>
+  <!--== End Aside Menu ==-->
+</div>
+
+<!--=======================Javascript============================-->
+
+<!--=== jQuery Modernizr Min Js ===-->
+<script src="assets/js/modernizr-3.5.0.js"></script>
+<!--=== jQuery Min Js ===-->
+<script src="assets/js/jquery-3.6.0-main.js"></script>
+<!--=== jQuery Migration Min Js ===-->
+<script src="assets/js/jquery-3.3.2-migrate.js"></script>
+<!--=== jQuery Bootstrap Min Js ===-->
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+<!--=== jQuery Swiper Min Js ===-->
+<script src="assets/js/swiper.min.js"></script>
+<!--=== jQuery Fancybox Min Js ===-->
+<script src="assets/js/fancybox.min.js"></script>
+<!--=== jQuery Waypoint Js ===-->
+<script src="assets/js/waypoint-4.0.1.js"></script>
+<!--=== jQuery Aos Min Js ===-->
+<script src="assets/js/aos.min.js"></script>
+<!--=== jQuery Counterup Min Js ===-->
+<script src="assets/js/counterup.js"></script>
+<!--=== jQuery Datetimepicker Min Js ===-->
+<script src="assets/js/jquery.datetimepicker.min.js"></script>
+
+<!--=== jQuery Custom Js ===-->
+<script src="assets/js/custom.js"></script>
+
+</body>
+
+</html>
